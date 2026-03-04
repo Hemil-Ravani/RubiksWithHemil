@@ -1,0 +1,187 @@
+.Heading{
+    text-align: center;
+    font-size: 4rem;
+    margin: 0;
+    
+}
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+   
+  }
+
+  nav {
+    background: #333;
+  }
+
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav li {
+    flex: 1;
+  }
+
+  nav a {
+    display: block;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+  }
+
+  nav a:hover {
+    background: #555;
+  }
+
+  section {
+    display: none;
+    padding: 40px;
+  }
+  .slogan{
+    text-align: center;
+    font-style: italic;
+    margin: 0;
+  }
+
+
+.point{
+    text-align: center;
+    list-style: none;
+}
+
+  section {
+    display: none;
+    padding: 40px;
+  }
+
+  /* Show section when targeted */
+  section:target {
+    display: block;
+  }
+
+  /* Default section */
+  
+  @media (max-width: 600px) {
+    nav ul {
+      flex-direction: column;
+    }
+  }
+
+
+  
+
+.heading {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 40px;
+}
+
+.subheading {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+.menu-card {
+    max-width: 600px;
+    margin: 30px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    line-height: 1.6;
+}
+
+.menu-item {
+    margin-bottom: 20px;
+}
+
+.menu-item h3 {
+    margin: 0 0 5px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-item p {
+    margin: 0;
+    color: #555;
+}
+
+.price {
+    color: #d35400;
+}
+
+.Hemil {
+    max-width: 600px;
+    margin: 30px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    line-height: 1.6;
+    font-size: 20px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #d35400;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a84300;
+}
+
+/* Smooth fade message */
+.success-message {
+    text-align: center;
+    color: green;
+    margin-top: 15px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+.container {
+    max-width: 500px;
+    margin: 60px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="style.css">
+<title>Hemil's Pizza</title>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href = "#menu">Menu</a></li>
+            <li><a href = "#book">Book a lesson</a></li>
+        </ul>
+    </nav>
+<h1 class = "Heading">Hemil's Pizza</h1>
+<h3 class = "slogan">Bite into Happiness</h3>
+<body>
+
+    <section id = "home">
+        <div class="Hemil">
+    <p class="point"><strong> At Hemil Pizza's, we will strive to make every pizza the best we possibly can. You can be assured of;</strong> 
+</p>
+<ul>
+    <li class="point"><strong>Quality, fresh  ingredients</strong></li>
+    <li class="point"><strong>Homemade, woodfire taste</strong></li>
+    <li class="point"><strong>Exceptional service</strong></li>
+</ul>
+<p class="point"><strong>Be ready to have your tastebuds explode with flavour.</strong></p>
+</div>
+    </section>
+    <section id = "menu">
+        <h1 class = "heading">Menu</h1>
+        <p class="subheading">Prices are per class</p>
+        <div class="menu-card">
+            <div class = "menu-item">
+                 <h3>3x3 - 1 hour <span class="price">$40</span></h3>
+                 <p>Four lessons required to complete course.</p>
+            </div>
+            <div class="menu-item">
+               <h3>2x2 - 30 minutes <span class="price">$15</span></h3>
+                <p>Two lessons required to complete the course</p> 
+            </div>
+            <div class="menu-item">
+                <h3>Spicy Paneer Supreme <span class="price">$16</span></h3>
+                <p>Marinated paneer, red onions, capsicum, and chili flakes.</p>
+
+            </div>
+            <div class="menu-item">
+                <h3>BBQ Veggie Burst <span class="price">$15</span></h3>
+                <p>Smoky BBQ sauce, grilled vegetables, onions, and mozzarella.</p>
+
+            </div>
+
+        </div>
+    </section>
+    <section id = "book">
+        <div class="container">
+        <form id="contactForm">
+            <label for="name">Your name:</label>
+            <input id="name" type="text" placeholder="Your name" required>
+            <label for="email">Your Email:</label>
+            <input type="email" placeholder="Your Email" required id="email" >
+            <label for="lesson">Choose you preferred lesson:</label>
+            <select name="lesson" id="lesson">
+                <option value=""> Choose your lesson</option>
+                <option value="2x2">2x2</option>
+                <option value="3x3">3x3</option>
+                <option value="4x4">4x4</option>
+                <option value="mega">Megaminx</option>
+                <option value="pyra">Pyraminx</option>
+                <option value="skewb">Skewb</option>
+            </select>
+            <label for="msg">Short Message</label>
+            <textarea name="msg" id="msg" placeholder="Enter your message"></textarea>
+            <button id="submit" type="submit">Submit</button>
+            <p class="success-message" id = "successMsg">Thank You! Your message has been sent.</p>
+        </form>
+        </div>
+    </section>
+</body>
